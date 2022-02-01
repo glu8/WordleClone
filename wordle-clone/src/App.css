@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.wordRow {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.letter {
+  display: inline;
+}
