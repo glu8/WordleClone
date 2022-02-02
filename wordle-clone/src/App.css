@@ -11,6 +11,7 @@
 
 .letter {
   display: inline-block;
+  text-align: center;
   color: black;
   border: solid #000;
   border-width: 1px;
@@ -48,10 +49,10 @@
 }
 
 
-.test {
-  width: 100px;
-  height: 100px;
-  background-color: "blue";
-  color: "red";
+.header {
+  display: block;
 }
+
+
+
 
