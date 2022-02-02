@@ -3,11 +3,55 @@
 }
 
 .wordRow {
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2px;
+  display: block;
 }
 
 .letter {
-  display: inline;
+  display: inline-block;
+  color: black;
+  border: solid #000;
+  border-width: 1px;
+  border-color: lightgrey;
+  width: 25px;
+  height: 25px;
+  margin: 2px;
 }
+
+.letter[data-state='correct'] {
+  display: inline-block;
+  color: black;
+  background-color: green;
+  width: 25px;
+  height: 25px;
+  margin: 2px;
+}
+
+.letter[data-state='present'] {
+  display: inline-block;
+  color: black;
+  background-color: orange;
+  width: 25px;
+  height: 25px;
+  margin: 2px;
+}
+
+.letter[data-state='absent'] {
+  display: inline-block;
+  color: black;
+  background-color: lightgrey;
+  width: 25px;
+  height: 25px;
+  margin: 2px;
+}
+
+
+.test {
+  width: 100px;
+  height: 100px;
+  background-color: "blue";
+  color: "red";
+}
+
